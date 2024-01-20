@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title> About me</title>
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+.flex-comtainer {
+ justify-content: first baseline; /* Space throughout the flex container */
+ display: flex; /* Enables Flexbox */
+ align-items: center; /* Centers iteams */
+ padding: 15px; /* Padding throughout the flex container */
+ background:lavender; /* Backround for the flex container */
+}
+.flex-item {
+ border: chocolate; /* Light white backround for the flex iteams */
+ background-color: aqua; /* Light white backround for the flex iteams */
+ padding: 20px; /* Attach padding inside the flex iteam */
+ margin: 15px; /* Attach margin inside the flex iteam */
+ text-align: center;
+ font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="flex-comtainer"> 
+ <div class="flex-iteam">iteam 1</div>
+ <div class="flex-iteam">iteam 2</div>
+ <div class="flex-iteam">iteam 3</div>
+ <div class="flex-iteam">iteam 4</div>
+</div>
+
+</body>
+</html>
